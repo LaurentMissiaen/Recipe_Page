@@ -13,3 +13,10 @@ img {
 .content {
   margin: 2em;
 }
+
+h1 {
+  font-family: Young Serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  font-size: 36px;
+}
