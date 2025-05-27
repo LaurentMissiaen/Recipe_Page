@@ -1,2 +1,15 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 img {
+  width: 100vw;
+}
+
+.content {
+  margin: 2em;
 }
