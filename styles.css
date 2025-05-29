@@ -15,16 +15,25 @@ img {
 }
 
 h1 {
-  font-family: Young Serif;
+  font-family: "Young Serif";
   font-weight: 400;
   color: hsl(24, 5%, 18%);
   font-size: 36px;
 }
 
 h2 {
-  font-family: Young Serif;
+  font-family: "Young Serif";
   font-weight: 400;
   color: hsl(14, 45%, 36%);
+}
+
+p,
+li,
+td {
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 1.7em;
+  color: hsl(30, 10%, 34%);
 }
 
 ul,
@@ -34,4 +43,18 @@ ol {
 
 li {
   padding-left: 1em;
+}
+
+.purpleboi > h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: Outfit;
+  font-weight: 600;
+}
+
+.purpleboi ::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.purpleboi {
+  background-color: hsl(332, 51%, 32%, 7%);
 }
