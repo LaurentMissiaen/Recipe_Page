@@ -32,7 +32,7 @@ li,
 td {
   font-family: Outfit;
   font-weight: 400;
-  line-height: 1.7em;
+  line-height: 1.8em;
   color: hsl(30, 10%, 34%);
 }
 
@@ -44,7 +44,6 @@ ol {
 li {
   padding-left: 1em;
 }
-
 .purpleboi > h3 {
   color: hsl(332, 51%, 32%);
   font-family: Outfit;
@@ -56,5 +55,7 @@ li {
 }
 
 .purpleboi {
-  background-color: hsl(332, 51%, 32%, 7%);
+  background-color: hsl(330, 100%, 98%);
+  padding: 0.3em 2em 0.3em 1em;
+  border-radius: 12px;
 }
