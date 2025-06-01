@@ -11,7 +11,8 @@ img {
 }
 
 .content {
-  margin: 2em;
+  margin: 2.1em;
+  padding-bottom: 1.5em;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h2 {
   font-family: "Young Serif";
   font-weight: 400;
   color: hsl(14, 45%, 36%);
+  font-size: 28px;
 }
 
 p,
@@ -32,8 +34,9 @@ li,
 td {
   font-family: Outfit;
   font-weight: 400;
-  line-height: 1.8em;
+  line-height: 1.6em;
   color: hsl(30, 10%, 34%);
+  font-size: 16px;
 }
 
 ul,
@@ -43,7 +46,13 @@ ol {
 
 li {
   padding-left: 1em;
+  padding-bottom: 0.6em;
 }
+
+ul > li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
 .purpleboi > h3 {
   color: hsl(332, 51%, 32%);
   font-family: Outfit;
@@ -52,6 +61,11 @@ li {
 
 .purpleboi ::marker {
   color: hsl(332, 51%, 32%);
+}
+
+ol > li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
 }
 
 .purpleboi {
@@ -65,7 +79,7 @@ hr {
 }
 
 td {
-  padding-right: 5em;
+  padding: 0.8em 3.5em 0.8em 2em;
 }
 
 td:nth-of-type(even) {
@@ -80,4 +94,8 @@ table {
 
 tr {
   border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+tr:last-of-type {
+  border: none;
 }
