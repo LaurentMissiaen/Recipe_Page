@@ -61,5 +61,23 @@ li {
 }
 
 hr {
-  background-color: hsl(30, 54%, 90%);
+  border: 0.5px solid hsl(30, 18%, 87%);
+}
+
+td {
+  padding-right: 5em;
+}
+
+td:nth-of-type(even) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
 }
